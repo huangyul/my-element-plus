@@ -1,7 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <el-button>111</el-button>
+  <div id="app">
+    <div id="nav">
+      <RouterLink to="/">home</RouterLink>
+      |
+      <RouterLink to="/button">button</RouterLink>
+    </div>
+    <RouterView></RouterView>
+  </div>
 </template>
 
 <style scoped></style>
