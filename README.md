@@ -53,3 +53,17 @@ yarn add cz-conventional-changelog --dev
  }
 }
 ```
+
+###### lerna
+
+先全局安装 lerna
+
+`npm i leran -g`
+
+在 package.json 配置
+
+```json
+{
+  "workspaces": ["packages/*"]
+}
+```
